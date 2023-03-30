@@ -1,0 +1,70 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-color: rgb(229, 229, 229);
+}
+
+
+.paginator {
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+  padding: 0 15px;
+}
+
+.none {
+  display: none;
+  visibility: hidden;
+  padding: 0;
+}
+
+
+.paginator__item {
+  transition: all 0.3s ease;
+}
+
+.paginator__item:hover {
+  cursor: pointer;
+  color: rgb(119, 119, 119);
+  transition: all 0.3s ease;
+}
+
+.currentPage {
+  color: rgb(119, 119, 119);
+}
+
+.movies__wrapper {
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
