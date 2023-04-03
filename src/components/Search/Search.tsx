@@ -17,10 +17,6 @@ const Search: React.FC = () => {
     }
 
     return (
-        // <form className={m.wrapper}>
-        //     <input className={m.input} onChange={(e) => setSearchValue(e.target.value)} value={searchValue} type="text" />
-        //     <button className={m.button} onClick={makeRequest} type="submit">Search</button>
-        // </form>
         <Form
             style={{ maxWidth: 600 }}
             initialValues={{ remember: true }}
