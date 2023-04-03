@@ -5,19 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './Redux/redux-store';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <HashRouter>
+  <BrowserRouter>
     <Provider store={store}>
       <Routes>
-        <Route path='/' element={<App />} />
+        <Route path='/movie-search-app/' element={<App />} />
       </Routes>
     </Provider>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 reportWebVitals();
