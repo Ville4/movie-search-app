@@ -1,4 +1,4 @@
-import { Action, applyMiddleware, combineReducers, legacy_createStore as createStore } from "redux";
+import { Action, compose,  applyMiddleware, combineReducers, legacy_createStore as createStore } from "redux";
 import appReducer from "./app-Reducer";
 import thunkMiddleware, { ThunkAction } from 'redux-thunk'
 
