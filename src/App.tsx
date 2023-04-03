@@ -8,7 +8,7 @@ import Movie from './components/Movie/Movie';
 import Search from './components/Search/Search';
 import { getInitialMoviesThunk, searchMoviesThunk } from './Redux/app-Reducer';
 import { appStateType } from './Redux/redux-store';
-import { Col, Row, Slider } from 'antd';
+import { Col, Row } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 
 const App: React.FC = () => {
